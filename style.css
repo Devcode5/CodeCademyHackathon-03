@@ -1,0 +1,256 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background: #fff;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo{
+    background-size: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+.navbar_menu {
+    display: flex;
+    float: right;
+    list-style: none;
+    transition: all 0.5s ease;
+    opacity: 1;
+    background: #fff;
+
+}
+.navbar_menu.active {
+    background: #131313;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    height: 60vh;
+    font-size: 1.6rem;
+}
+
+.navbar_item {
+    height: 80px;
+
+}
+.navbar_links {
+    color: #19C4D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+
+}
+.navbar_links:hover {
+    color: #316b89;
+    transition: all 0.3s ease;
+}
+
+
+body {
+    background: #19C4D8;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+.hero-section {
+    background-image: url(./img/top-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em 0 33.8em 0;
+    border-radius: 0 0 50px 50px;
+}
+
+.hero-title {
+    margin: 5px;
+    color: #316b89;
+
+}
+.hero-title-gue {
+    margin-top: 35px;
+    color: #316b89;
+
+
+}
+.hero-description {
+    margin-top: 20px;
+    color: #316b89;
+
+}
+
+.hero-description-gue {
+    margin-top: 30px;
+    color: #316b89;
+    font-size: 20px;
+
+
+}
+.orgs1 {
+   display: grid;
+   height: 50px;
+   width: 220px;
+   background: linear-gradient(#316b89, #19C4D8);
+   position: absolute;
+   place-items: center;
+   color: #fff;
+   align-items: center;
+   border-radius: 15px;
+   margin-left: 45%;
+   margin-top:50px ;
+   text-decoration: none;
+
+
+
+}
+.orgs2 {
+    display: grid;
+    height: 50px;
+    width: 220px;
+    background: linear-gradient(#316b89, #19C4D8);
+    position: absolute;
+    place-items: center;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 45%;
+
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+
+ 
+ 
+ }
+ .orgs3 {
+    display: grid;
+    height: 50px;
+    width: 220px;
+    background: linear-gradient(#316b89, #19C4D8);
+    position: absolute;
+    place-items: center;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 45%;
+
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+ 
+ 
+ }
+ .footer1 {
+    place-items: center;
+   
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+ 
+
+ }
+ .main {
+     background-color: #19C4D8;
+     padding: 5rem 0;
+ }
+
+ .main_container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     height: 90%;
+     z-index: 1;
+     width: 100%;
+     max-width: 1300px;
+     padding: 0 50px;
+
+ }
+
+ .main_content {
+     color: #316b89;
+     width: 100%;
+ }
+ .main_content h1 {
+     font-size: 2rem;
+     background-size: 100%;
+     text-transform: uppercase;
+     margin-bottom: 32px;
+
+
+
+ }
+
+ .main_content h2{
+     font-size: 3rem;
+
+ }
+ .main_content p {
+     margin-top: 1.8rem;
+font-size: 2rem;
+font-weight: 700;     
+ }
+ .main_img_container {
+     text-align: center;
+ }
+  .main_img_card {
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #fff;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(https://media.giphy.com/media/3og0IMh7rRNPtNSK9q/giphy.gif);
+  }
+ 
+
+  footer {
+      position: relative;
+      width: 100%;
+      background: #fff;
+      min-height: 100px;
+      padding: 20px 50px;
+
+  }
+  footer p {
+      color: #316b89;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-size: 1.9em;
+      color: #fff;
+  }
+
+
+
+
